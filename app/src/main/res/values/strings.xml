@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GeekBrainsNavigation</string>
+    <string name="title_left">Left Fragment</string>
+    <string name="title_middle">Middle Fragment</string>
+    <string name="title_right">Right Fragment</string>
+    <string name="next_fragment">Next Fragment</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="toMain">Sign In -> Main</string>
+    <string name="toSignIn">Sign Up -> Sign In</string>
+    <string name="bottom_sheet">Bottom Sheet</string>
+    <string name="fragment_in_bottom_sheet">This is fragment in bottom_sheet</string>
+    <string name="tab_1">Tab 1</string>
+    <string name="tab_2">Tab 2</string>
+    <string name="tab_3">Tab 3</string>
+    <string name="fragment_tab1">Fragment Tab</string>
+    <string name="fragment_tab2">Fragment Tab_2</string>
+    <string name="fragment_tab3">Fragment Tab_3</string>
+    <string name="bottom_navigation">Bottom Navigation</string>
+    <string name="tabs">Tabs</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="inner_right_bottom_navigation_fragment">Inner Right Fragment</string>
+    <string name="inner_middle_bottom_navigation_fragment">Inner Middle Fragment</string>
+    <string name="inner_left_bottom_navigation_fragment">Inner Left Fragment</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</string>
+    <string name="lorem_ipsum_full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </string>
+    <string name="next">Next</string>
+    <string name="main">Main</string>
+    <string name="first_name">First name</string>
+    <string name="a_slide">A slide</string>
+    <string name="b_slide">B slide</string>
+</resources>
