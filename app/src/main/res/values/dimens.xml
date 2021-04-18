@@ -3,4 +3,5 @@
     <dimen name="base_margin">16dp</dimen>
     <dimen name="big_margin">32dp</dimen>
     <dimen name="small_margin">8dp</dimen>
+    <dimen name="edit_text_size">20sp</dimen>
 </resources>

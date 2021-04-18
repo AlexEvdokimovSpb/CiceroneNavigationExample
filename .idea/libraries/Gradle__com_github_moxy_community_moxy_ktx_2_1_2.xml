@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.moxy-community:moxy-ktx:2.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.moxy-community/moxy-ktx/2.1.2/64767fe121a3b26cbcc831b9f3654a51adf70fb2/moxy-ktx-2.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.moxy-community/moxy-ktx/2.1.2/58ffe6feb66ccafd32fb899ba57fe75f25787f84/moxy-ktx-2.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.moxy-community/moxy-ktx/2.1.2/905ca6a71197070558f7222f7e81c159a21b9980/moxy-ktx-2.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
