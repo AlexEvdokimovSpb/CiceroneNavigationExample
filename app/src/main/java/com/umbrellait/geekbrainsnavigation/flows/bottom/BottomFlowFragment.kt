@@ -18,8 +18,8 @@ import com.umbrellait.geekbrainsnavigation.screens.Screens
 import com.umbrellait.geekbrainsnavigation.utils.setLaunchScreen
 
 class BottomFlowFragment(
-    override var flowRouter: FlowRouter,
-    override var navigationHolder: NavigatorHolder
+        override var flowRouter: FlowRouter,
+        override var navigationHolder: NavigatorHolder
 ) : FlowFragment() {
 
     private var _binding: FragmentBottomFlowBinding? = null
@@ -27,24 +27,24 @@ class BottomFlowFragment(
 
     override val navigator: Navigator
         get() = object : AppNavigator(
-            requireActivity(),
-            R.id.bottom_container,
-            childFragmentManager
+                requireActivity(),
+                R.id.bottom_container,
+                childFragmentManager
         ) {
 
             override fun setupFragmentTransaction(
-                fragmentTransaction: FragmentTransaction,
-                currentFragment: Fragment?,
-                nextFragment: Fragment?
+                    fragmentTransaction: FragmentTransaction,
+                    currentFragment: Fragment?,
+                    nextFragment: Fragment?
             ) {
                 fragmentTransaction.setReorderingAllowed(true)
             }
         }
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentBottomFlowBinding.inflate(inflater, container, false)
         return binding.root
@@ -58,20 +58,23 @@ class BottomFlowFragment(
         binding.bottomNavigationView.setOnNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.navigation_left -> navigator.setLaunchScreen(
-                    Screens.LeftFlow(
-                        FlowRouter(activity.router),
-                        navigationHolder
-                    )
+                        Screens.LeftFlow(
+                                FlowRouter(activity.router),
+                                navigationHolder
+                        )
                 )
                 R.id.navigation_middle -> navigator.setLaunchScreen(
-                    Screens.ListFlow(
-                        FlowRouter(activity.router),
-                        navigationHolder
-                    )
+                        Screens.ListFlow(
+                                FlowRouter(activity.router),
+                                navigationHolder
+                        )
                 )
-                R.id.navigation_right -> {
-
-                }
+                R.id.navigation_right -> navigator.setLaunchScreen(
+                        Screens.RightFlow(
+                                FlowRouter(activity.router),
+                                navigationHolder
+                        )
+                )
             }
             true
         }
